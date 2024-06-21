@@ -38,6 +38,9 @@ public class Kalkulator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        bilangan1.setBackground(new java.awt.Color(153, 255, 255));
+
+        bilangan2.setBackground(new java.awt.Color(153, 255, 255));
         bilangan2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bilangan2ActionPerformed(evt);
@@ -46,6 +49,7 @@ public class Kalkulator extends javax.swing.JFrame {
 
         txtHasil.setText("hasil");
 
+        tambah.setBackground(new java.awt.Color(255, 255, 102));
         tambah.setText("+");
         tambah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,6 +57,7 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        kurang.setBackground(new java.awt.Color(255, 255, 102));
         kurang.setText("-");
         kurang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -60,6 +65,7 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        kali.setBackground(new java.awt.Color(255, 255, 102));
         kali.setText("x");
         kali.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,6 +73,7 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        bagi.setBackground(new java.awt.Color(255, 255, 102));
         bagi.setText(":");
         bagi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,6 +81,7 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        modulo.setBackground(new java.awt.Color(255, 255, 102));
         modulo.setText("mod");
         modulo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
